@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="Klassenbuch" name="Klassenbuch" path="D:/Dokumente/DHBW/Semester_2/Web-Engineering/HTML-Projekt/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/Klassenbuch" type="static"/>
+</server>

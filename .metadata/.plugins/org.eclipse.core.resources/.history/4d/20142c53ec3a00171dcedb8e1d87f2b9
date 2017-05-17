@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Feedback</title>
+<meta name="author" content="Adrian">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+<form>
+<label for="feedback">Feedback
+<input type= "text" id= "feedback" name="feedback" size= "100" value="Bitte geben sie uns ein ehrliches Feedback">
+<input type= "submit" value="Senden">
+</label>
+</form>
+
+</body>
+</html>
