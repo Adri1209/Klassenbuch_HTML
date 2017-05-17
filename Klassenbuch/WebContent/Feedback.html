@@ -6,12 +6,20 @@
 <meta charset="utf-8">
 </head>
 <body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
-<form>
-<label for="feedback">Feedback
-<input type= "text" id= "feedback" name="feedback" size= "100" value="Bitte geben sie uns ein ehrliches Feedback">
-<input type= "submit" value="Senden">
-</label>
-</form>
+<link rel="stylesheet" href="Feedback.css">
 
+<ul>
+  <li><a href="#class">Klassen</a></li>
+  <li><a href="#teacher">Lehrer</a></li>
+  <li><a class="active"href="#feedback">Feedback</a></li>
+</ul>
+
+<div>
+<form>
+<label for="feedback">Feedback</label>
+<input type= "text" id= "feedback" name="feedback" placeholder="Bitte geben sie uns ein ehrliches Feedback...">
+<input type= "submit" value="Senden">
+</form>
+</div>
 </body>
 </html>
