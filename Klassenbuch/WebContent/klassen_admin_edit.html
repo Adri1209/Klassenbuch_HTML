@@ -8,8 +8,9 @@
 </head>
 <body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
 	<ul>
-		<li><a class="active" href="klassen.html">Klassen</a></li>
-		<li><a href="lehrer.html">Lehrer</a></li>
+		<li><a class="active" href="klassen_admin.html">Klassen</a></li>
+		<li><a href="lehrer_admin.html">Lehrer</a></li>
+		<li><a href="schueler_admin.html">Schüler</a></li>
 		<li><a href="#start">Lehrerplatform Administration</a></li>
 		<li><a href="login.html">Logout</a></li>
 	</ul>
@@ -24,10 +25,44 @@
 			<tbody>
 				<tr>
 					<td>
+						Stufe
+					</td>
+					<td>
+						<fieldset>
+							<ul>
+							  <li> 
+								<label><input type="radio" name="stufe" value="5" checked>5</label>
+							  </li>
+							  <li><label><input type="radio" name="stufe" value="6">6</label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="stufe" value="7">7</label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="stufe" value="8">8</label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="stufe" value="9">9</label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="stufe" value="10">10</label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="stufe" value="11">11</label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="stufe" value="12">12</label>
+							  </li>
+							</ul> 
+						 </fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td>
 						Name
 					</td>
 					<td>
-						5a
+						<textarea rows="1" cols="50">a</textarea>
 					</td>
 				</tr>
 				<tr>
@@ -35,36 +70,36 @@
 						Schüler
 					</td>
 					<td>
-						Johannes Berger
+						<textarea rows="1" cols="50">Johannes Berger</textarea>
 					</td>
 				</tr>
 				<tr>
 					<td>
 					</td>
 					<td>
-						Max Coner
+						<textarea rows="1" cols="50">Max Coner</textarea>
 					</td>
 				</tr>
 				<tr>
 					<td>
 					</td>
 					<td>
-						Jenny Morn
+						<textarea rows="1" cols="50">Jenny Morn</textarea>
 					</td>
 				</tr>
 				<tr>
 					<td>
 					</td>
-					<td>
-						+
+					<td class="anchor">
+						<a href="schueler_admin_edit.html">+</a>
 					</td>
 				</tr>
 				<tfoot>
 					<tr>
-						<td>
+						<td class="anchor">
 							<a href="klassen_admin.html">ändern</a>
 						</td>
-						<td>
+						<td class="anchor">
 							<a href="klassen_admin.html">zurück</a>
 						</td>
 					</tr>

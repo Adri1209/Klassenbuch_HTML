@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Schüler - Administration</title>
+	<meta name="authors" content="Kuehnlein Tim">
+	<link rel="stylesheet" type="text/css" href="html.css">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+	<ul>
+		<li><a href="klassen_admin.html">Klassen</a></li>
+		<li><a href="lehrer_admin.html">Lehrer</a></li>
+		<li><a class="active" href="schueler_admin.html">Schüler</a></li>
+		<li><a href="#start">Lehrerplatform Administration</a></li>
+		<li><a href="login.html">Logout</a></li>
+	</ul>
+	
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Schüler ändern</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td class="anchor">
+						<a href="schueler_admin.html">speichern</a>
+					</td>
+					<td class="anchor">
+						<a href="schueler_admin.html">unverändert zurück</a>
+					</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>
+						Name
+					</td>
+					<td>
+						<textarea rows="1" cols="50">Onur Zauf</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Klasse
+					</td>
+					<td>
+						<fieldset>
+							<ul>
+							  <li> 
+								<label><input type="radio" name="klasse" value="5a" checked><a href="klassen_admin_edit.html">5a</a></label>
+							  </li>
+							  <li><label><input type="radio" name="klasse" value="5b"><a href="klassen_admin_edit.html">5b</a></label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="klasse" value="5c"><a href="klassen_admin_edit.html">5c</a></label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="klasse" value="5d"><a href="klassen_admin_edit.html">5d</a></label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="klasse" value="kurs_11a"><a href="klassen_admin_edit.html">kurs_11a</a></label>
+							  </li>
+							  <li>  
+								<label><input type="radio" name="klasse" value="kurs_11b"><a href="klassen_admin_edit.html">kurs_11b</a></label>
+							  </li>
+							</ul> 
+						 </fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="anchor">
+						<a href="notizen_admin.html">Notizen des Schülers anzeigen</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

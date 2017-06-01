@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Lehrer - Administration</title>
+	<meta name="authors" content="Kuehnlein Tim">
+	<link rel="stylesheet" type="text/css" href="html.css">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+	<ul>
+		<li><a href="klassen_admin.html">Klassen</a></li>
+		<li><a class="active" href="lehrer_admin.html">Lehrer</a></li>
+		<li><a href="schueler_admin.html">Schüler</a></li>
+		<li><a href="#start">Lehrerplatform Administration</a></li>
+		<li><a href="login.html">Logout</a></li>
+	</ul>
+	
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Lehrer ändern</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						Name
+					</td>
+					<td>
+						<textarea rows="1" cols="50">Bernd Holler</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="2">
+						Adresse
+					</td>
+					<td>
+						<textarea rows="1" cols="50">Hauptstraße 4</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<textarea rows="1" cols="50"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Telefonnummer privat
+					</td>
+					<td>
+						<textarea rows="1" cols="50">09743 77439</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						E-Mail Schule
+					</td>
+					<td>
+						<textarea rows="1" cols="50">hollerb@gs-mosbach.de</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						E-Mail privat
+					</td>
+					<td>
+						<textarea rows="1" cols="50"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Klassen
+					</td>
+					<td>
+						<fieldset>
+							<ul>
+							  <li> 
+								<label><input type="checkbox" name="klasse" value="5a">5a</label>
+							  </li>
+							  <li><label><input type="checkbox" name="klasse" value="5b">5b</label>
+							  </li>
+							  <li>  
+								<label><input type="checkbox" name="klasse" value="5c">5c</label>
+							  </li>
+							  <li>  
+								<label><input type="checkbox" name="klasse" value="5d">5d</label>
+							  </li>
+							  <li>  
+								<label><input type="checkbox" name="klasse" value="kurs_11a">kurs_11a</label>
+							  </li>
+							  <li>  
+								<label><input type="checkbox" name="klasse" value="kurs_11b">kurs_11b</label>
+							  </li>
+							</ul> 
+						 </fieldset>
+					</td>
+				</tr>
+				<tfoot>
+					<tr>
+						<td class="anchor">
+							<a href="lehrer_admin.html">speichern</a>
+						</td>
+						<td class="anchor">
+							<a href="lehrer_admin.html">unverändert zurück</a>
+						</td>
+					</tr>
+				</tfoot>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
